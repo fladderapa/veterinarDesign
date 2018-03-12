@@ -1,0 +1,112 @@
+      /* Ensure layout covers the entire screen. */
+      html {
+        height: 100%;
+      }
+
+      /* Stack toolbar and content on top of each other. */
+      .demo-body {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        min-height: 100%;
+      }
+
+      /* Place drawer and main next to each other. */
+      .demo-content {
+        display: flex;
+        flex: 1 1 auto;
+        height: 100%;
+        box-sizing: border-box;
+      }
+
+      .demo-main {
+        padding-left: 16px;
+        padding-right: 16px;
+      }
+
+      #extra-wide-content {
+        width: 200vw;
+      }
+
+      #extra-tall-content {
+        height: 200vh;
+      }
+
+.mdc-toolbar {
+	background-color: #4BA3A2;
+}
+
+.mdc-card{
+    margin-top: 10px;
+    padding: 15px;
+}
+.mdc-card__media{
+  height: 0px;
+  
+}
+.mdc-button{
+	background-color: #4BA3A2 !important;
+	color:white !important;
+}
+.mdc-list--two-line .mdc-list-item {
+    width: 800px;
+    height: 72px;
+}
+
+.mdc-text-field{
+	width: 100% !important;
+}
+
+p{
+  color: rgba(0, 0, 0, 0.64);
+}
+
+.no-marginBottom{
+  margin-bottom: 0px;
+}
+
+.mdc-card__actions{
+  padding: 0px;
+  min-height: 40px;
+}
+
+body{
+  background-color: #F2F2F2;
+}
+
+h4{
+margin: 0px;
+color: rgba(0, 0, 0, 0.87);
+font-weight: 400;
+}
+h5{
+  font-weight: 400;
+margin: 5px 0 0 0;
+color: rgba(0, 0, 0, 0.74);
+float: left;
+}
+
+.app-fab--absolute {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+@media(min-width: 1024px) {
+   .app-fab--absolute {
+    bottom: 1.5rem;
+    right: 1.5rem;
+  }
+}
+
+.cardText{
+  font-weight: 600;
+  margin: 0 100px 0 0;
+  float:right;
+  color: rgba(0, 0, 0, 0.87) !important;
+}
+.mdc-list-item--selected .mdc-list-item__graphic, .mdc-list-item--activated .mdc-list-item__graphic{
+	color: var(--mdc-theme-secondary, #138685);
+}
